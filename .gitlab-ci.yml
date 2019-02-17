@@ -3,7 +3,8 @@ image: node:latest
 cache:
   paths:
     - node_modules/
-all_tests:
+
+deployment:
   script:
     - yarn install
     - yarn run deploy
